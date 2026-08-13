@@ -1,0 +1,49 @@
+header {
+    background-color: rgb(118, 175, 221);
+    color: white;
+    padding: 25px;
+    text-align: left;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+main {
+    background-color: white;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    color: rgb(50, 50, 50);
+    padding: 15px;
+    text-align: center;
+    margin-top: 30px;
+    border-top: 3px solid rgb(118, 175, 221);
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+img {
+    width: 500px;
+    max-width: 100%;
+}
