@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="sv">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Webstore name</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
     <header>
@@ -55,17 +55,17 @@
             <legend>kontaktformulär</legend>
             <div>
               <label for="name">Namn:</label>
-              <input type="text" id="name" name="name" required />
+              <input type="text" id="name" name="name" autocomplete="name" required />
             </div>
 
             <div>
               <label for="email">E-post:</label>
-              <input type="email" id="email" name="email" required />
+              <input type="email" id="email" name="email" autocomplete="email" required />
             </div>
 
             <div>
               <label for="reason">Välj Änme:</label>
-              <select id="reason" name="reason">
+              <select id="reason" name="reason" required>
                 <option value="question">Fråga</option>
                 <option value="complaint">Klagomål</option>
                 <option value="feedback">Feedback</option>
