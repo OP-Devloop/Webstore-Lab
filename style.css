@@ -48,6 +48,7 @@ img {
 }
 
 a:hover,
-a:focus {
+a:focus,
+a:focus-visible {
   outline: 3px solid #005fcc;
 }
