@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 header {
   background-color: rgb(118, 175, 221);
   color: white;
@@ -19,9 +23,18 @@ header nav ul {
   gap: 15px;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(240, 240, 240);
+  color: rgb(50, 50, 50);
+  margin: 0;
+  padding: 0;
+}
+
 main {
   background-color: white;
-  max-width: 900px;
+  width: 1700px;
+  max-width: 100%;
   margin: 30px auto;
   padding: 30px;
   border-radius: 10px;
@@ -42,8 +55,23 @@ label {
   width: 100px;
 }
 
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  display: inline-block;
+  width: 300px;
+  max-width: 100%;
+  border: 1px solid #000000;
+  margin: 10px;
+}
+
 img {
   width: 500px;
+  height: 200px;
+  object-fit: cover;
   max-width: 100%;
 }
 
