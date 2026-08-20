@@ -8,6 +8,9 @@ header {
   padding: 25px;
   text-align: left;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 header h1 {
@@ -61,6 +64,7 @@ label {
 }
 
 .product-card {
+  position: relative;
   display: inline-block;
   width: 300px;
   max-width: 100%;
@@ -79,4 +83,40 @@ a:hover,
 a:focus,
 a:focus-visible {
   outline: 3px solid #005fcc;
+}
+
+.badge {
+position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 8px 12px;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sale {
+  background-color: rgb(255, 39, 39);
+  color: rgb(0, 0, 0);
+}
+
+.new {
+  background-color: rgb(241, 255, 39);
+  color: rgb(0, 0, 0);
+}
+
+.popular {
+  background-color: rgb(82, 255, 39);
+  color: rgb(0, 0, 0);
+}
+
+.featured-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.featured-product {
+  width: 400px;
+  max-width: 80%;
 }
