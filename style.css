@@ -70,6 +70,7 @@ label {
   max-width: 100%;
   border: 1px solid #000000;
   margin: 10px;
+  border-radius: 10px;
 }
 
 img {
@@ -86,7 +87,7 @@ a:focus-visible {
 }
 
 .badge {
-position: absolute;
+  position: absolute;
   top: 10px;
   right: 10px;
   padding: 8px 12px;
@@ -116,7 +117,9 @@ position: absolute;
   justify-content: center;
 }
 
-.featured-product {
-  width: 400px;
-  max-width: 80%;
+@media (max-width: 600px) {
+  .featured-product {
+    width: 400px;
+    max-width: 80%;
+  }
 }
