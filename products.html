@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webstore name</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
   </head>
   <body>
     <header>
       <h1>Webstore name</h1>
+      <button class="menu-toggle" aria-label="Toggle navigation menu">
+        ☰
+      </button>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -18,6 +22,11 @@
           <li><a href="privacy-policy.html">Integritetspolicy</a></li>
         </ul>
       </nav>
+      <button class="cart-toggle" aria-label="Toggle shopping cart">🛒</button>
+      <aside id="shopping-cart" class="cart hidden">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items"></ul>
+      </aside>
     </header>
     <main>
       <h1>Products</h1>
@@ -45,6 +54,16 @@
                 and long battery life.
               </p>
               <p><strong>Price:</strong> $79.99</p>
+              <div>
+                <button
+                  id="buy-btn-1"
+                  class="buy-btn"
+                  data-product="wireless-headphones"
+                  type="submit"
+                >
+                  Buy
+                </button>
+              </div>
             </div>
           </article>
 
@@ -60,6 +79,16 @@
                 high-resolution camera, and vibrant display.
               </p>
               <p><strong>Price:</strong> $699.99</p>
+              <div>
+                <button
+                  id="buy-btn-2"
+                  class="buy-btn"
+                  data-product="smartphone"
+                  type="submit"
+                >
+                  Buy
+                </button>
+              </div>
             </div>
           </article>
 
@@ -76,6 +105,16 @@
                 customizable watch faces.
               </p>
               <p><strong>Price:</strong> $129.99</p>
+              <div>
+                <button
+                  id="buy-btn-3"
+                  class="buy-btn"
+                  data-product="smart-watch"
+                  type="submit"
+                >
+                  Buy
+                </button>
+              </div>
             </div>
           </article>
 
@@ -92,6 +131,16 @@
                 water-resistant design.
               </p>
               <p><strong>Price:</strong> $49.99</p>
+              <div>
+                <button
+                  id="buy-btn-4"
+                  class="buy-btn"
+                  data-product="portable-speaker"
+                  type="submit"
+                >
+                  Buy
+                </button>
+              </div>
             </div>
           </article>
 
@@ -107,6 +156,16 @@
                 devices.
               </p>
               <p><strong>Price:</strong> $24.99</p>
+              <div>
+                <button
+                  id="buy-btn-5"
+                  class="buy-btn"
+                  data-product="phone-charger"
+                  type="submit"
+                >
+                  Buy
+                </button>
+              </div>
             </div>
           </article>
         </div>
