@@ -1,6 +1,4 @@
-/* =========================
-   Global
-========================= */
+/* Global */
 
 * {
   box-sizing: border-box;
@@ -14,9 +12,7 @@ body {
   padding: 0;
 }
 
-/* =========================
-   Header
-========================= */
+/* Header */
 
 header {
   background-color: #151a21;
@@ -79,9 +75,7 @@ header nav a:focus-visible {
   outline-offset: 2px;
 }
 
-/* =========================
-   Main
-========================= */
+/* Main */
 
 main {
   background-color: white;
@@ -113,9 +107,7 @@ main > h1 {
   margin-bottom: 25px;
 }
 
-/* =========================
-   Product List
-========================= */
+/* Product List */
 
 .product-list {
   display: grid;
@@ -125,9 +117,7 @@ main > h1 {
   gap: 24px;
 }
 
-/* =========================
-   Product Card
-========================= */
+/* Product Card */
 
 .product-card {
   position: relative;
@@ -198,9 +188,7 @@ main > h1 {
   justify-content: center;
 }
 
-/* =========================
-   Badges
-========================= */
+/* Badges  */
 
 .badge {
   position: absolute;
@@ -233,9 +221,7 @@ main > h1 {
   color: white;
 }
 
-/* =========================
-   Buy Button
-========================= */
+/* Buy Button */
 
 .buy-btn {
   margin: auto 20px 20px;
@@ -274,9 +260,7 @@ main > h1 {
   outline-offset: 2px;
 }
 
-/* =========================
-   Shopping Cart Button
-========================= */
+/* Shopping Cart Button */
 
 .cart-toggle {
   position: relative;
@@ -306,9 +290,7 @@ main > h1 {
   outline-offset: 2px;
 }
 
-/* =========================
-   Shopping Cart
-========================= */
+/* Shopping Cart */
 
 .hidden {
   display: none;
@@ -351,9 +333,7 @@ main > h1 {
   list-style: none;
 }
 
-/* =========================
-   Cart Items
-========================= */
+/* Cart Items */
 
 .cart-item {
   display: flex;
@@ -399,9 +379,7 @@ main > h1 {
   outline-offset: 2px;
 }
 
-/* =========================
-   Footer
-========================= */
+/* Footer */
 
 footer {
   background-color: #151a21;
@@ -438,17 +416,13 @@ footer hr {
   margin: 25px 0;
 }
 
-/* =========================
-   Images
-========================= */
+/* Images */
 
 img {
   max-width: 100%;
 }
 
-/* =========================
-   Mobile
-========================= */
+/* Mobile */
 
 @media (max-width: 800px) {
   header {
@@ -491,9 +465,7 @@ img {
   }
 }
 
-/* =========================
-   Small phones
-========================= */
+/* Small phones */
 
 @media (max-width: 500px) {
   header nav ul {
